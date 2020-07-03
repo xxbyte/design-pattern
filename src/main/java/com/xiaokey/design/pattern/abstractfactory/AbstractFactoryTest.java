@@ -18,7 +18,7 @@ public class AbstractFactoryTest {
     }
 }
 //  变化:        mysql , sqlserver , oracle ........
-//  c/s(稳定):   connection, command, ......
+//  稳定:        connection, command, ......
 
 interface IConnection {
 
@@ -37,8 +37,6 @@ interface IDBComponent {
 
     ICommand getCommand();
 }
-
-// ------------------
 
 class MyConnection implements IConnection {
 
@@ -68,10 +66,8 @@ class MysqlDbComponent implements IDBComponent {
         return new MyCommand();
     }
 }
-//--------oracle
 
 class OracleConnection implements IConnection {
-
 
     @Override
     public void connection() {

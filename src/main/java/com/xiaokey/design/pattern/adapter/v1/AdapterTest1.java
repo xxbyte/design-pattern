@@ -25,7 +25,6 @@ interface Target {
     int output5v();
 }
 
-// Object Adapter
 class Adapter implements Target {
 
     private Adaptee adaptee;
@@ -37,9 +36,7 @@ class Adapter implements Target {
     @Override
     public int output5v() {
         int i = adaptee.output220v();
-        //  ......
         System.out.println(String.format("原始电压： %d v  - >  输出电压： %d  v  ", i, 5));
-
         return 5;
     }
 }
