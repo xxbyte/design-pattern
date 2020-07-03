@@ -1,8 +1,8 @@
 ## 抽象工厂模式-- abstract factory
-#####模式定义:
+## 模式定义:
 提供一个创建一系列相关或互相依赖对象的接口，而无需指定它们具体的类
 ![alt text](./image/abstractFactory.png "Abstract Factory class diagram")
-#####代码示例：
+## 代码示例：
 ```
 package com.xiaokey.design.pattern.abstractfactory;
 
@@ -108,12 +108,12 @@ class OralceDbComponent implements IDBComponent {
 ```
 
 
-#####应用场景:
+## 应用场景:
 程序需要处理不同系列的相关产品，但是您不希望它依赖于这些产品的具体类时，
 可以使用抽象工厂
 
 
-#####优点:
+## 优点:
 
 1.可以确信你从工厂得到的产品彼此是兼容的。
 
@@ -124,7 +124,7 @@ class OralceDbComponent implements IDBComponent {
 4.符合开闭原则
 
 
-#####jdk源码中的应用：
+### jdk源码中的应用：
 
 1.java.sql.connection
 
