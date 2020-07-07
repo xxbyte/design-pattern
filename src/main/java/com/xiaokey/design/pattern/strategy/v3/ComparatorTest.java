@@ -9,20 +9,15 @@ import java.util.Comparator;
  */
 public class ComparatorTest {
     public static void main(String[] args) {
-        Person[] persons =
-                new Person[]{new Person(10, 111), new Person(18, 99), new Person(15, 122)};
-
+        Person[] persons = new Person[]{new Person(10, 111), new Person(18, 99), new Person(15, 122)};
         Arrays.sort(persons, new SortByHeight());
-
         print(persons);
-
     }
 
     static void print(Person[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
-
     }
 }
 

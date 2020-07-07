@@ -15,7 +15,6 @@ public class EnumSingletonTest {
 //        try(ObjectOutputStream oos=new ObjectOutputStream( new FileOutputStream( "EnumSingleton" ) )) {
 //            oos.writeObject( instance );
 //        }
-
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("EnumSingleton"))) {
             EnumSingleton object = ((EnumSingleton) ois.readObject());
             System.out.println(object == instance);
@@ -29,7 +28,6 @@ public class EnumSingletonTest {
 
 enum EnumSingleton {
     INSTANCE;
-
     public void print() {
         System.out.println(hashCode());
     }
