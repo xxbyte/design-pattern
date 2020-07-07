@@ -1,6 +1,6 @@
 ## 享元模式-- Flyweight
 ## 模式定义:
-运用共享技术有效地支持大量细粒度的对象
+    运用共享技术有效地支持大量细粒度的对象
 
 ## Flyweight 代码示例：
 ```
@@ -74,10 +74,9 @@ class TreeFactory {
 ```
 
 ## 优点:
-如果系统有大量类似的对象，可以节省大量的内存及CPU资源
+    如果系统有大量类似的对象，可以节省大量的内存及CPU资源
 
 
 ### 经典案例：
-String,Integer,Long... 
-
-com.sun.org.apache.bcel.internal.generic.InstructionConstants
+    String,Integer,Long... 
+    com.sun.org.apache.bcel.internal.generic.InstructionConstants

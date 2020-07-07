@@ -1,6 +1,6 @@
 ## 单例模式-- Singleton
 ## 模式定义:
-保证一个类只有一个实例，并且提供一个全局访问点
+    保证一个类只有一个实例，并且提供一个全局访问点
 
 ![alt text](./image/singleton.png "Singleton")
 
@@ -262,7 +262,6 @@ enum EnumSingleton {
 // Tomcat
 
     1.org.apache.catalina.webresources.TomcatURLStreamHandlerFactory 
-
 // 反序列化指定数据源
 
     1.java.util.Currency

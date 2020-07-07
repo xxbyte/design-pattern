@@ -1,6 +1,6 @@
 ## 建造者模式-- Builder
 ## 模式定义:
-将一个复杂对象的创建与他的表示分离，使得同样的构建过程可以创建不同的表示
+    将一个复杂对象的创建与他的表示分离，使得同样的构建过程可以创建不同的表示
 
 ![alt text](./image/builder.png "builder")
 
@@ -262,18 +262,13 @@ class Product {
 
 
 ## 应用场景:
-1.需要生成的对象具有复杂的内部结构
-
-2.需要生成的对象内部属性本身相互依赖与不可变对象配合使用
-
+    1.需要生成的对象具有复杂的内部结构
+    2.需要生成的对象内部属性本身相互依赖与不可变对象配合使用
 
 ## 优点:
-1、建造者独立，易扩展。
-
-2、便于控制细节风险。
-
+    1、建造者独立，易扩展。
+    2、便于控制细节风险。
 
 ### 经典案例：
-org.springframework.web.servlet.mvc.method.RequestMappingInfo
- 
-org.springframework.beans.factory.support.BeanDefinitionBuilder
+    org.springframework.web.servlet.mvc.method.RequestMappingInfo
+    org.springframework.beans.factory.support.BeanDefinitionBuilder

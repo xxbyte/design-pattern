@@ -3,6 +3,7 @@ package com.xiaokey.design.pattern.templatemethod;
 /**
  * @author chenhao
  * @net xiaokey.com
+ * @desc 模板方法模式
  */
 public class TemplateMethodTest {
     public static void main(String[] args) {

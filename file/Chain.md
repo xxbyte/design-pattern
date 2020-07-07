@@ -1,6 +1,6 @@
 ## 责任链模式-- Chain Of Responsibility
 ## 模式定义:
-为请求创建了一个接收者对象的链。
+    为请求创建了一个接收者对象的链。
 
 ![alt text](./image/chain.png "Chain Of Responsibility")
 
@@ -166,18 +166,14 @@ class LoggingHandler extends Handler {
 
 
 ## 应用场景:
-一个请求的处理需要多个对象当中的一个或几个协作处理。
+    一个请求的处理需要多个对象当中的一个或几个协作处理。
 
 
 ## 优点:
-1.请求的发送者和接受者解耦
-
-2.可以控制执行顺序
-
-3.符合开闭原则和单一职责原则
-
+    1.请求的发送者和接受者解耦
+    2.可以控制执行顺序
+    3.符合开闭原则和单一职责原则
 
 ### 经典案例：
-1.javax.servlet.Filter
-
-2.javax.servlet.FilterChain
+    1.javax.servlet.Filter
+    2.javax.servlet.FilterChain

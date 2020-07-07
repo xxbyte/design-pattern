@@ -1,6 +1,6 @@
 ## 门面模式-- Facade
 ## 模式定义:
-为子系统中的一组接口提供一个一致的接口，Facade 模式定义了一个高层接口，这个接口使得这一子系统更加容易使用
+    为子系统中的一组接口提供一个一致的接口，Facade 模式定义了一个高层接口，这个接口使得这一子系统更加容易使用
 
 ![alt text](./image/facade.png "Facade")
 
@@ -78,14 +78,13 @@ class SubSystem3 {
 
 
 ## 应用场景:
-1.当您需要使用复杂子系统的有限但直接的接口时，请使用Facade模式。
-
-2.当您想要将子系统组织成层时，请使用Facade。
+    1.当您需要使用复杂子系统的有限但直接的接口时，请使用Facade模式。
+    2.当您想要将子系统组织成层时，请使用Facade。
 
 
 ## 优点:
-简化客户端的调用
+    简化客户端的调用
 
 
 ### 经典案例：
-org.apache.catalina.connector.RequestFacade
+    org.apache.catalina.connector.RequestFacade
