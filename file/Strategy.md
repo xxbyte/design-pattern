@@ -9,6 +9,7 @@
 ---|---|---|---
 普通僵尸 | 普通 | 朝着一个方向移动 | 咬
 骑手僵尸 | 普通+手持旗子 | 朝着一个方向移动 | 咬
+
 ![alt text](./image/strategy2.png "Strategy2")
 
 类型 | 外观 | 移动 | 攻击
@@ -18,6 +19,7 @@
 大头僵尸 | 大头 | 朝着一个方向移动 | 头撞
 石膏僵尸 | 石膏装 | 一拐一瘸 | 武器
 XXXX僵尸 | ... | ... | ...
+
 ![alt text](./image/strategy3.png "Strategy3")
 ![alt text](./image/strategy4.png "Strategy4")
 
